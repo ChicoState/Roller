@@ -1,7 +1,5 @@
 // Copyright 2022 kbuffardi
 #include "GameDie.h"
-#include <vector>
-#include <cstdlib>
 #include <ctime>
 
 // class constructor that seeds the random number generator
