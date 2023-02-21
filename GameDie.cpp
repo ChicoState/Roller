@@ -5,23 +5,28 @@
 #include <ctime>
 
 // class constructor that seeds the random number generator
-GameDie::GameDie() {
+GameDie::GameDie()
+{
     srand(time(NULL));
     roll_counter.resize(FACES);
 
-    for (int i = 0; i < FACES; i++ )
-      roll_counter[i] = 0;
+    for (int i = 0; i < FACES; i++)
+        roll_counter[i] = 0;
 }
 
 // overloaded constructor
-GameDie::GameDie(unsigned int num) {
+GameDie::GameDie(unsigned int num)
+{
     srand(time(NULL));
     if (num == 0) {
         roll_counter.resize(FACES);
-    } else {
+    }
+    else
+    {
         roll_counter.resize(num);
     }
-    for (int i = 0; i < FACES; i++) {
+    for (int i = 0; i < FACES; i++)
+    {
         roll_counter[i] = 0;
     }
 }
