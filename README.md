@@ -1,5 +1,9 @@
 # Roller
 
+[![Build Roller](https://github.com/shmansa/Roller/actions/workflows/actions.yml/badge.svg)](https://github.com/shmansa/Roller/actions/workflows/actions.yml)
+
+[![Lint Code Base](https://github.com/shmansa/Roller/actions/workflows/cpplint.yml/badge.svg)](https://github.com/shmansa/Roller/actions/workflows/cpplint.yml)
+
 This repository provides a program that rolls a game die, such as the
 six-sided dice used in traditional dice game.
 
