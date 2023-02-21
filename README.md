@@ -1,3 +1,10 @@
+#Status
+
+[![C/C++ CI](https://github.com/chetan2298/Roller/actions/workflows/c%7Cc++.yml/badge.svg)](https://github.com/chetan2298/Roller/actions/workflows/c%7Cc++.yml)
+
+[![CPP-lint-ci](https://github.com/chetan2298/Roller/actions/workflows/cpplintcheck.yml/badge.svg)](https://github.com/chetan2298/Roller/actions/workflows/cpplintcheck.yml)
+
+
 # Roller
 
 This repository provides a program that rolls a game die, such as the
