@@ -29,7 +29,8 @@ GameDie::GameDie(unsigned int num) {
 // generate a random number between 1-n where n is the counter size
 // (inclusive) and return it
 int GameDie::roll() {
-    int roll = rand_r() % roll_counter.size();
+    unsigned int seed = time(NULL);
+    int roll = rand_r(&seed) % roll_counter.size();
     roll_counter[roll]++;
     return roll + 1;
 }
@@ -38,4 +39,4 @@ int GameDie::roll() {
 // where each face's count is at index face-1 (i.e. Face 1 is at index 0)
 vector <int> GameDie::get_distribution() {
     return roll_counter;
-}
+}rand
