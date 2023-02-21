@@ -3,6 +3,8 @@
 This repository provides a program that rolls a game die, such as the
 six-sided dice used in traditional dice game.
 
+[![C++ CI](https://github.com/reembot/csci630-CI_badge/actions/workflows/actions.yml/badge.svg?branch=main)](https://github.com/reembot/csci630-CI_badge/actions/workflows/actions.yml)
+
 # Usage
 
 ## Getting Started
