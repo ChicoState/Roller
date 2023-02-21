@@ -1,4 +1,4 @@
-name: Build
+name: CPP-lint-ci
 on:
   push:
     branches: [ "main" ]
