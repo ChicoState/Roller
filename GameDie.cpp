@@ -5,7 +5,7 @@
 #include <ctime>
 
 // class constructor that seeds the random number generator
-GameDie::GameDie(){
+GameDie::GameDie() {
     srand(time(NULL));
     roll_counter.resize(FACES);
 
