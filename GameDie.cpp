@@ -10,7 +10,7 @@ GameDie::GameDie() {
     roll_counter.resize(FACES);
 
     for (int i = 0; i < FACES; i++ )
-      roll_counter[i] = 0;
+        roll_counter[i] = 0;
 }
 
 // overloaded constructor
@@ -29,13 +29,14 @@ GameDie::GameDie(unsigned int num) {
 // generate a random number between 1-n where n is the counter size
 // (inclusive) and return it
 int GameDie::roll() {
-    int roll = rand_r() % roll_counter.size();
+    unsigned int seed = time(NULL);
+    int roll = rand_r(&seed) % roll_counter.size();
     roll_counter[roll]++;
     return roll + 1;
 }
 
 // return the count of how many times each face has been rolled, as a vector
 // where each face's count is at index face-1 (i.e. Face 1 is at index 0)
-vector <int> GameDie::get_distribution() {
+vector<int> GameDie::get_distribution() {
     return roll_counter;
 }
