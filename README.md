@@ -1,3 +1,4 @@
+[![C/C++ CI](https://github.com/rohitkarhadkar/Roller/actions/workflows/cpp-build.yml/badge.svg)](https://github.com/rohitkarhadkar/Roller/actions/workflows/cpp-build.yml)
 # Roller
 
 This repository provides a program that rolls a game die, such as the
