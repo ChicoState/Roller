@@ -1,5 +1,5 @@
-![build](https://github.com/jayrevolinskyjr/Roller/blob/main/.github/actions/workflows/build.yml/badge.svg)
-![style](https://github.com/jayrevolinskyjr/Roller/blob/main/.github/actions/workflows/cpplint.yml/badge.svg)
+[![Build C++](https://github.com/jayrevolinskyjr/Roller/actions/workflows/build.yml/badge.svg)](https://github.com/jayrevolinskyjr/Roller/actions/workflows/build.yml)
+[![cpplint](https://github.com/jayrevolinskyjr/Roller/actions/workflows/cpplint.yml/badge.svg)](https://github.com/jayrevolinskyjr/Roller/actions/workflows/cpplint.yml)
 
 # Roller
 
