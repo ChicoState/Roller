@@ -12,4 +12,4 @@ jobs:
       - name: Build project
         run: docker build -t cpp-container .
       - name: Lint
-        run: docker run -it cpp-container cpplint *.cpp *.h
+        run: docker run -i cpp-container cpplint *.cpp *.h
