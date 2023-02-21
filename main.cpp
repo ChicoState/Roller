@@ -7,7 +7,7 @@ using std::cout;
 using std::endl;
 
 int main(int argc, char *argv[]) {
-  if( argc != 2 || std::atoi(argv[1]) < 1 ){
+  if(argc != 2 || std::atoi(argv[1]) < 1){
     cout << "Incorrect command.\n"
          << "Format: ./Roller <n>\n"
          << "--------------------\n"
