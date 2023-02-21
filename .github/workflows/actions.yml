@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Build cpp project quiz2
+      - name: Build cpp project quizz2
         run: g++ main.cpp -std=c++17 -Wall -Wextra -Werror -o sampleCI
