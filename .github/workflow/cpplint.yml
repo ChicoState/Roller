@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t roller . 
     - name: Launch container
-      run: docker run -t roller make
+      run: docker run -t roller cpplint *.cpp *.h
