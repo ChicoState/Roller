@@ -28,8 +28,9 @@ GameDie::GameDie(unsigned int num) {
 
 // generate a random number between 1-n where n is the counter size
 // (inclusive) and return it
+// rand_r is thread safe, we dont need that here.
 int GameDie::roll() {
-    int roll = rand_r() % roll_counter.size();
+    int roll = rand() % roll_counter.size();
     roll_counter[roll]++;
     return roll + 1;
 }
