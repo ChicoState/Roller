@@ -1,4 +1,4 @@
-name: CI - cpp Linter
+name: CI - cppLinter
 
 on:
   pull_request:
