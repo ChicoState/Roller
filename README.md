@@ -1,5 +1,8 @@
 # Roller
 
+[![C/C++ CI](https://github.com/shubhamlatkar/Roller/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/shubhamlatkar/Roller/actions/workflows/c-cpp.yml)
+[![CPP-lint-ci](https://github.com/shubhamlatkar/Roller/actions/workflows/cpplint-check.yml/badge.svg)](https://github.com/shubhamlatkar/Roller/actions/workflows/cpplint-check.yml)
+
 This repository provides a program that rolls a game die, such as the
 six-sided dice used in traditional dice game.
 
