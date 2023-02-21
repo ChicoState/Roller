@@ -1,3 +1,5 @@
+[![Build C++](https://github.com/sourabhk25/Roller/actions/workflows/build.yml/badge.svg)](https://github.com/sourabhk25/Roller/actions/workflows/build.yml)
+
 # Roller
 
 This repository provides a program that rolls a game die, such as the
