@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build project
-        run: g++ main.cpp -std=c++17 -Wall -o Roleer
+        run: g++ main.cpp -std=c++18 -Wall -o Roller
