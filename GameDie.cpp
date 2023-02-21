@@ -1,12 +1,11 @@
 // Copyright 2022 kbuffardi
 #include "GameDie.h"
-#include <vector>
-#include <cstdlib>
 #include <ctime>
 
 // class constructor that seeds the random number generator
 GameDie::GameDie() {
-    srand(time(NULL));
+    seed = time(NULL);
+
     roll_counter.resize(FACES);
 
     for (int i = 0; i < FACES; i++ )
@@ -15,7 +14,8 @@ GameDie::GameDie() {
 
 // overloaded constructor
 GameDie::GameDie(unsigned int num) {
-    srand(time(NULL));
+    seed = time(NULL);
+
     if ( num == 0 ) {
         roll_counter.resize(FACES);
     } else {
@@ -29,7 +29,7 @@ GameDie::GameDie(unsigned int num) {
 // generate a random number between 1-n where n is the counter size
 // (inclusive) and return it
 int GameDie::roll() {
-    int roll = rand_r() % roll_counter.size();
+    int roll = rand_r(&seed) % roll_counter.size();
     roll_counter[roll]++;
     return roll + 1;
 }
