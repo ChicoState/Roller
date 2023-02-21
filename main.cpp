@@ -6,7 +6,6 @@
 using std::cout;
 using std::endl;
 
-// dummy Checking command
 int main(int argc, char *argv[]) {
   if ( argc != 2 || std::atoi(argv[1]) < 1 ) {
     cout << "Incorrect command.\n"
