@@ -43,3 +43,5 @@ container (see above), run **cpplint**:
 `cpplint *.cpp *.h`
 
 [![Build Roller](https://github.com/yashvi95/Roller/actions/workflows/actions.yml/badge.svg)](https://github.com/yashvi95/Roller/actions/workflows/actions.yml)
+
+[![Lint Code Base](https://github.com/yashvi95/Roller/actions/workflows/super-linter.yml/badge.svg)](https://github.com/yashvi95/Roller/actions/workflows/super-linter.yml)
