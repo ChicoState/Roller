@@ -1,3 +1,4 @@
+[![Docker Image CI](https://github.com/decoles/Roller/actions/workflows/docker-image.yml/badge.svg)](https://github.com/decoles/Roller/actions/workflows/docker-image.yml)
 # Roller
 
 This repository provides a program that rolls a game die, such as the
