@@ -1,3 +1,6 @@
+[![Build C++](https://github.com/jayrevolinskyjr/Roller/actions/workflows/build.yml/badge.svg)](https://github.com/jayrevolinskyjr/Roller/actions/workflows/build.yml)
+[![cpplint](https://github.com/jayrevolinskyjr/Roller/actions/workflows/cpplint.yml/badge.svg)](https://github.com/jayrevolinskyjr/Roller/actions/workflows/cpplint.yml)
+
 # Roller
 
 This repository provides a program that rolls a game die, such as the
