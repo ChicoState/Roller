@@ -1,0 +1,26 @@
+name: CPPLint
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y -f build-essential g++ cmake
+  check:
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - name: cpplint GameDie
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+        run: |
+          pip install cpplint
+          cpplint *.cpp *.h
