@@ -1,3 +1,4 @@
+[![Lint Code Base](https://github.com/abhinaydruva/Roller/actions/workflows/super-linter.yml/badge.svg)](https://github.com/abhinaydruva/Roller/actions/workflows/super-linter.yml)
 # Roller
 
 This repository provides a program that rolls a game die, such as the
