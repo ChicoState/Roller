@@ -6,7 +6,7 @@
 
 // class constructor that seeds the random number generator
 GameDie::GameDie() {
-    seed = time(NULL)
+    seed = time(NULL);
 
     roll_counter.resize(FACES);
 
@@ -16,7 +16,7 @@ GameDie::GameDie() {
 
 // overloaded constructor
 GameDie::GameDie(unsigned int num) {
-    seed = time(NULL)
+    seed = time(NULL);
 
     if ( num == 0 ) {
         roll_counter.resize(FACES);
