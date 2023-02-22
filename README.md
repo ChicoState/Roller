@@ -1,3 +1,8 @@
+# Build Status
+
+[![Build C++](https://github.com/Anoushka444/Roller/actions/workflows/c++&c.yml/badge.svg)](https://github.com/Anoushka444/Roller/actions/workflows/c++&c.yml)
+
+
 # Roller
 
 This repository provides a program that rolls a game die, such as the
