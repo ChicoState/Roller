@@ -14,7 +14,7 @@ jobs:
       - name: Docker build
         run: |
           docker build -t cpp-container .
-          docker run -it cpp-container cpplint *.cpp *.h
+          docker run -t cpp-container cpplint *.cpp *.h
 
   # make:
   #   needs: build
