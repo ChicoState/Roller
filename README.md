@@ -1,3 +1,5 @@
+[![Docker Image CI-CD](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml/badge.svg)](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml)
+
 # Roller
 
 This repository provides a program that rolls a game die, such as the
@@ -41,3 +43,6 @@ To check for your program's adoption of the style guide, within the docker
 container (see above), run **cpplint**:
 
 `cpplint *.cpp *.h`
+
+
+
