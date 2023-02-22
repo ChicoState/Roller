@@ -1,5 +1,7 @@
 [![Build C++](https://github.com/hardikpatil/Roller/actions/workflows/actions.yml/badge.svg)](https://github.com/hardikpatil/Roller/actions/workflows/actions.yml)
 
+[![Lint C++](https://github.com/hardikpatil/Roller/actions/workflows/cpplint.yml/badge.svg)](https://github.com/hardikpatil/Roller/actions/workflows/cpplint.yml)
+
 # Roller
 
 This repository provides a program that rolls a game die, such as the
