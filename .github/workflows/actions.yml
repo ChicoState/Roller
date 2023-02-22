@@ -15,14 +15,16 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y -f build-essential g++ cmake
           pip install cpplint
-          cpplint *.cpp *.h
+
   build:
     needs: install
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build project
-        run: make
+        run: |
+          make
+          cpplint *.cpp *.h
   # lint:
   #   needs: build
   #   runs-on: ubuntu-latest
