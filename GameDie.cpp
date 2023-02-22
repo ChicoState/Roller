@@ -7,7 +7,7 @@
 // class constructor that seeds the random number generator
 GameDie::GameDie()
 {
-    roll_seed = time(NULL);
+    srand(time(NULL));
     roll_counter.resize(FACES);
 
     for (int i = 0; i < FACES; i++)
@@ -17,7 +17,7 @@ GameDie::GameDie()
 // overloaded constructor
 GameDie::GameDie(unsigned int num)
 {
-    roll_seed = time(NULL);
+    srand(time(NULL));
     if (num == 0)
     {
         roll_counter.resize(FACES);
@@ -36,7 +36,7 @@ GameDie::GameDie(unsigned int num)
 // (inclusive) and return it
 int GameDie::roll()
 {
-    int roll = rand_r(roll_seed) % roll_counter.size();
+    int roll = rand() % roll_counter.size();
     roll_counter[roll]++;
     return roll + 1;
 }
