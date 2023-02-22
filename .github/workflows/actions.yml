@@ -27,7 +27,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-      with:
-        python-version: 3.x
+      - uses: actions/setup-python@v3
       - run: cpplint *.cpp *.h
