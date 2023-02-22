@@ -1,4 +1,4 @@
-#Status
+# Build Status
 
 [![Build C++](https://github.com/Anoushka444/Roller/actions/workflows/c++&c.yml/badge.svg)](https://github.com/Anoushka444/Roller/actions/workflows/c++&c.yml)
 
