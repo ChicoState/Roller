@@ -17,7 +17,7 @@ public:
 private:
   vector<int> roll_counter;
   static const int FACES = 6;
-  int roll_seed;
+  unsigned int roll_seed;
 };
 
 #endif // GAMEDIE_H_
