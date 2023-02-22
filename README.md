@@ -43,4 +43,4 @@ container (see above), run **cpplint**:
 `cpplint *.cpp *.h`
 
 
-[![CI Build](https://github.com/prestonmasseyblake/Roller/actions/workflows/build-docker.yml/badge.svg)](https://github.com/prestonmasseyblake/Roller/actions/workflows/build-docker.yml)
+[![CI Build](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml/badge.svg)](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml)
