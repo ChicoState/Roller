@@ -41,3 +41,6 @@ To check for your program's adoption of the style guide, within the docker
 container (see above), run **cpplint**:
 
 `cpplint *.cpp *.h`
+
+
+[![Build C++](https://github.com/sachinprasad1998mav/Roller/actions/workflows/actions.yml/badge.svg)](https://github.com/sachinprasad1998mav/Roller/actions/workflows/actions.yml)
