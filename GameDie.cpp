@@ -36,7 +36,7 @@ GameDie::GameDie(unsigned int num)
 // (inclusive) and return it
 int GameDie::roll()
 {
-    int roll = rand_s(roll_seed) % roll_counter.size();
+    int roll = rand_r(roll_seed) % roll_counter.size();
     roll_counter[roll]++;
     return roll + 1;
 }
