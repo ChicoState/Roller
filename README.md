@@ -1,7 +1,4 @@
-![CI Build](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml/badge.svg)
-<!-- https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg -->
-
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+[![Docker Image CI-CD](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml/badge.svg)](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml)
 
 # Roller
 
