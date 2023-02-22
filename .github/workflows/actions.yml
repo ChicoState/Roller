@@ -8,21 +8,21 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Docker build
         run: docker build -t cpp-container .
 
   make:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build project
         run: docker run -it cpp-container
   lint:
     needs: make
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
       - run: docker run -it cpp-container cpplint *.cpp *.h
