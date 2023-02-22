@@ -1,4 +1,4 @@
-![CI Build](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml/badge.svg)
+## HERE IS: ![CI Build](https://github.com/prestonmasseyblake/Roller/actions/workflows/docker-image.yml/badge.svg)
 
 # Roller
 
