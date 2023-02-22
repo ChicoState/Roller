@@ -26,5 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Lint
-        run: cpplint *.cpp *.h
+      - uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+      - run: pip install cpplint
+      - run: cpplint *.cpp *.h
