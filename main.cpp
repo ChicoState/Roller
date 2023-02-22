@@ -1,3 +1,8 @@
+// Copyright 2022 kbuffardi
+#include <iostream>
+#include <cstdlib>
+#include "GameDie.h"
+
 using std::cout;
 using std::endl;
 
