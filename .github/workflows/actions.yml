@@ -14,14 +14,14 @@ jobs:
         run: docker build -t cpp-container .
 
   make:
-    needs: install
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build project
         run: docker run -t cpp-container
   lint:
-    needs: build
+    needs: make
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
