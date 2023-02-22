@@ -1,4 +1,9 @@
+[![Build C++](https://github.com/Manavi-ghorpade/Roller/actions/workflows/actions.yml/badge.svg)](https://github.com/Manavi-ghorpade/Roller/actions/workflows/actions.yml)
+
+[![Containerized CI](https://github.com/Manavi-ghorpade/Roller/actions/workflows/docker-build.yml/badge.svg)](https://github.com/Manavi-ghorpade/Roller/actions/workflows/docker-build.yml)
+
 # Roller
+
 
 This repository provides a program that rolls a game die, such as the
 six-sided dice used in traditional dice game.
