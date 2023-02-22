@@ -41,3 +41,7 @@ To check for your program's adoption of the style guide, within the docker
 container (see above), run **cpplint**:
 
 `cpplint *.cpp *.h`
+
+[![Docker Image CI](https://github.com/priyankavrao97/Roller/actions/workflows/docker-image.yml/badge.svg)](https://github.com/priyankavrao97/Roller/actions/workflows/docker-image.yml)
+
+[![Lint Code Base](https://github.com/priyankavrao97/Roller/actions/workflows/super-lint.yml/badge.svg)](https://github.com/priyankavrao97/Roller/actions/workflows/super-lint.yml)
