@@ -1,0 +1,31 @@
+name: C++ Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Docker build
+        run: |
+          docker build -t cpp-container .
+          docker run -i cpp-container
+
+  # make:
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - name: Build project
+  #       run: docker run -it cpp-container
+  # lint:
+  #   needs: make
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - run: docker run -it cpp-container cpplint *.cpp *.h

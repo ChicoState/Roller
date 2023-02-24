@@ -6,16 +6,17 @@
 
 using std::vector;
 
-class GameDie{
+class GameDie {
  public:
   GameDie();
   explicit GameDie(unsigned int);
   int roll();
-  vector <int> get_distribution();
+  vector<int> get_distribution();
 
  private:
-  vector <int> roll_counter;
+  vector<int> roll_counter;
   static const int FACES = 6;
+  unsigned int *r_seed;
 };
 
 #endif  // GAMEDIE_H_
