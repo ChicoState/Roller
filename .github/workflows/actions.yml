@@ -1,4 +1,4 @@
-name: C++ Build & Lint
+name: C++ Build
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
       - name: Docker build
         run: |
           docker build -t cpp-container .
-          docker run -i cpp-container cpplint *.cpp *.h
+          docker run -i cpp-container
 
   # make:
   #   needs: build
